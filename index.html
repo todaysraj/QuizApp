@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="HEADINER1">Hi, Learner's Welcome!</h1>
+            <h1 class="ml3">🏆 Solve and Win: 10 Quiz Questions Challenge</h1>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        </div>
+        <section>
+            <h1 style="text-align: center;">🏆 Winners</h1>
+            <div class="winners-contaner">
+                <div class=" Allwinners winner1">
+                    <img src="./images/winner1.png" alt="Winner 1">
+                    <p>Winner 1</p>
+                    <span class="name">Rajendra Singh</span>
+                </div>
+                <div class=" Allwinners winner2">
+                    <img src="./images/winner2.png" alt="Winner 2">
+                    <p>Winner 2</p>
+                    <span class="name">Krishna</span>
+                </div>
+                <div class="Allwinners winner3">
+                    <img src="./images/winner3.png" alt="Winner 3">
+                    <p>Winner 3</p>
+                    <span class="name">Radhika</span>
+                </div>
+            </div>
+
+        </section>
+        <div class="app">   
+            <h2 class="Winner">Congratulations! You've Won!</h2>
+            <h1>Tech Stack - Quiz App</h1>
+            <div class="WinDisplay">
+                <img src="./images/giphy.gif" alt="Wow">
+            </div>
+            <div class="score">Score: <span>0</span>/<span>10</span></div>
+            <div class="quiz">
+                <P id="loading">Loading...</P>
+                <h2 id="question"></h2>
+                <div id="answer-buttons">
+                    <!-- <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button> -->
+                </div>
+                <button id="next-btn">Next</button>
+            </div>
+    
+        </div>
+    </div>
+    <div class="footer">
+        <p>Made With <i class="fa-solid fa-heart"></i> | RAJENDRA SINGH </p>
+            <div style="display: flex;">
+                <p>&copy; 2026 Tech Stack Quiz App | All rights reserved</p>
+            </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
